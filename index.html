@@ -1,0 +1,77 @@
+---
+layout: default
+title: Home
+---
+
+<header class="clean" style="height: 350px; background-image: url({{ site.cover }});">
+	{% include top.html %}
+	<div id="home-title">
+        <a href="{{ site.url }}">
+            <h1>Open Science Workshops</h1>
+			<!-- <img src="{{ site.icon }}" class="site-icon"> -->
+		</a>
+	</div>
+</header>
+
+<div id="article">
+    <h2>Welcome</h2>
+    <p>We are launching Open Science Workshops in order to bring open source
+    techniques to the science community.  </p>
+
+    <h2>Goal</h2>
+    <p>Our aim is basically contribute generally to the betterment of the
+    world at large by helping scientists share their work.  </p>
+
+    <p>Our essential motivation is to achieve:</p>
+    <blockquote>
+        Openness, reproducability, valuable scientific work and insights available to all 
+        <i>freely</i>.
+            <!-- <li> <i>Executable papers</i>: The ability to replicate scientific work by obtaining the -->
+            <!-- repository and building/running the paper </li> -->
+    </blockquote>
+
+    <h2>Get involved</h2>
+    <p>
+        We are currently looking for volunteers to be involved in all aspects
+        of this project! For the upcoming workshop in Melbourne, if you are
+        willing to: 
+        <ul>
+            <li> talk about GitHub and help with setup, </li>
+            <li> talk about ipython, help with basics, </li>
+            <li> talk about sage, help with basics, </li>
+        </ul>
+
+        we want to hear from you! To get involved, email 
+        <a href="mailto:noonsilk+osw@gmail.com">Noon Silk</a>.
+    </p>
+</div>
+
+<div id="post-list">
+    <h2>News</h2>
+	{% for post in paginator.posts %}
+		<div>
+			<span class="post-date">{{ post.date | date_to_long_string }}</span>
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			<p class="post-description">{{ post.content | strip_html | truncatewords: 50 }}</p>
+		</div>
+		<br>
+	{% endfor %}
+</div>
+
+<nav class="pagination" role="navigation">
+	{% if paginator.next_page %}
+		<a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
+	{% endif %}
+	<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+	{% if paginator.previous_page %}
+		{% if paginator.page == 2 %}
+			<a class="older-posts" href="/">Newer posts &rarr;</a>
+		{% else %}
+			<a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
+		{% endif %}
+	{% endif %}
+</nav>
+<footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; height: 60px;">
+    <p class="copyright">&copy;{{ site.time | date: "%Y" }},
+    <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>.</p>
+</footer>

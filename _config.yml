@@ -1,0 +1,42 @@
+# Dependencies
+markdown:	redcarpet
+highlighter:	pygments
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		Open Science Workshops
+tagline:	''
+description:	'Workshops helping people adopt an open approach to science.'
+url:		https://OpenScienceWorkshops.github.io
+
+author:
+  name:		'Noon Silk'
+  url:		https://github.com/silky
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	github
+    url:	https://github.com/OpenScienceWorkshops
+    desc:	Fork me on github
+
+  - icon:	feed
+    url:	https://OpenScienceWorkshops.github.io/atom.xml
+    desc:	Subscribe to my feed
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	About
+    url:	/about
+    
+copyright:
+  author:	Open Science Workshops
+  url:		https://OpenScienceWorkshops.github.io
