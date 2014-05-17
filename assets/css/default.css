@@ -243,10 +243,11 @@ blockquote, pre, .message {
 	margin: 0px 0px 30px -20px;
 	margin-top: inherit;
 	color: #7a7a7a;
+    background: #eaeaea;
 }
 
 blockquote {
-	border-left: 10px solid #C7F66A;
+	border-left: 10px solid magenta;
 }
 
 blockquote p {
