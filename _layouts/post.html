@@ -11,8 +11,9 @@ article: true
 			{% if page.video_mp4 %}<source src="{{ page.video_mp4 }}" type="video/mp4">{% endif %}
 		</video>
 	{% endif %}
-	{% include top.html %}
+    {% include top.html %}
 	<div id="post-info">
+        <center><a href="/"><img src="{{ site.icon }}" style='width: 200px;'></a></center>
 		<h1>{{ page.title }}</h1>
 		{% if page.quote %}
 			<h2>{{ page.quote }}</h2>
