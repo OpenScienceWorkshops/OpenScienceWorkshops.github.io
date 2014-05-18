@@ -14,7 +14,6 @@ interact with it!
 
 This is our dream.
 
-
 Contributors
 <ul>
 {% for contributor in site.github.contributors %}
@@ -23,3 +22,6 @@ Contributors
   </li>
 {% endfor %}
 </ul>
+
+Head over to [GitHub](https://github.com/OpenScienceWorkshops) to get
+involved!
