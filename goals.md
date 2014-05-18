@@ -13,3 +13,7 @@ Some specific things we want to see:
     everything we discover as humans should be organised and available for
     querying and review by everyone, for free.
 
+ * __Extend the amount of knowledge we can obtain through programming__ - It's
+    [becoming clear](http://michaelnielsen.org/blog/reinventing-discovery/) that it is possible to directly affect how much we can
+    discover (in the positive direction), as humans, by using tools to aid us.
+    We want to help explore this ability as far as possible.
