@@ -67,7 +67,6 @@ h3 {
 }
 
 img {
-	border-radius: 3px;
 	max-width: 100%;
 }
 
@@ -124,7 +123,6 @@ img.site-icon {
 	margin-top: -75px;
 	width: 150px;
 	height: 150px;
-	border-radius: 50%;
 	transition-duration: .25s;
 	opacity: .9;
 }
@@ -139,7 +137,6 @@ img.site-icon:hover {
 img.site-icon-small {
 	width: 28px;
 	height: 28px;
-	border-radius: 50%;
 	vertical-align: middle;
 	margin-right: 10px;
 }
@@ -149,7 +146,6 @@ img.site-icon-page {
 	height: 100px;
 	margin-left: -40px;
 	margin-top: -120px;
-	border-radius: 50%;
 	position: absolute;
 }
 
