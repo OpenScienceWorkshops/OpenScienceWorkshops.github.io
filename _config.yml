@@ -36,6 +36,9 @@ menu:
     
   - title:	About
     url:	/about
+
+  - title:	Goals
+    url:	/goals
     
 copyright:
   author:	Open Science Workshops
