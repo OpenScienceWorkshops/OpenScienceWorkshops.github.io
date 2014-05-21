@@ -47,7 +47,7 @@ Melb](https://github.com/OpenScienceWorkshops/osw-material/wiki/Agenda-for-1-day
 
 ## When/Where!
 
-TBA, but tenatively the date is the 12th of July, 2014.
+TBA, but tenatively the date is the 19th of July, 2014.
 
 
 ## Get tickets!
