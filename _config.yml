@@ -19,7 +19,7 @@ paginate:	5
 
 # Custom vars
 icon:		/assets/images/logo-attempt.png
-cover:		/assets/images/cover.jpg
+cover:		/assets/images/cover2.jpg
 
 social:
   - icon:	github
