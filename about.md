@@ -14,9 +14,9 @@ interact with it!
 
 This is our dream.
 
-Contributors
+Members
 <ul>
-{% for contributor in site.github.contributors %}
+{% for contributor in site.github.organisation_members %}
   <li>
     <img src="{{ contributor.avatar_url }}" width="32" height="32" /> <a href="{{ contributor.html_url }}">{{ contributor.login }}</a>
   </li>
