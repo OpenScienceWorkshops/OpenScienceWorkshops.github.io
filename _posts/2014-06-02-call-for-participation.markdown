@@ -44,10 +44,12 @@ science is about, and work in or near a scientific field.
 ## Dates/Location
 
 **Date/Time**:  9:00am - 6:30pm, Saturday 19th of July, 2014 
+
 **Location**: Inspire9, Level 1/41 Stewart Street, Richmond.
 
 ## Agenda
 *Morning* - Sharing and collaborating on code and data publicly (source control)
+
 *Afternoon* - Collaborative computation environments
 
 **Full details**: [Agenda](https://github.com/OpenScienceWorkshops/osw-material/wiki/Agenda-for-1-day-workshop)
