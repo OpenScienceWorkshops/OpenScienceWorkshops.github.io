@@ -18,7 +18,9 @@ Members
 <ul>
 {% for contributor in site.github.organization_members %}
   <li>
-    <img src="{{ contributor.avatar_url }}" width="32" height="32" /> <a href="{{ contributor.html_url }}">{{ contributor.login }}</a>
+    <img src="{{ contributor.avatar_url }}" width="32" height="32" /> <a
+    href="{{ contributor.html_url }}">{{ contributor.name }}</a> 
+        ({{ contributor.login }})
   </li>
 {% endfor %}
 </ul>
