@@ -24,7 +24,7 @@ cover:		/assets/images/cover2.jpg
 social:
   - icon:	github
     url:	https://github.com/OpenScienceWorkshops
-    desc:	Fork me on github
+    desc:	Visit me on github
 
   - icon:	feed
     url:	https://OpenScienceWorkshops.github.io/atom.xml
@@ -36,6 +36,9 @@ menu:
     
   - title:	About
     url:	/about
+
+  - title:	Contact
+    url:	/contact
 
   - title:	Goals
     url:	/goals
